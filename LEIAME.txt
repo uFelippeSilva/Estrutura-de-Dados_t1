@@ -1,0 +1,15 @@
+										Arquivo LEIAME para ajuda de compilção dos codigos do trabalho de ED.
+
+	Esse arquivo tem como objetivo ajuda a execulção dos algoritmos pedidos pelo Professor João Paulo como o Distribution, Insertion_a(caso medio), Insertion_w(pior cado), Merge, Quick_a(caso medio), Quick_w(pior caso) e Selection sort, segue a explicação de execulção de cada um deles.
+
+Ja para poupa tempo todos os codigos compilão da mesma maneira:gcc -c -Wall "nome do algoritmo", gcc -c "nome para o teste" .\"nome do algoritmo", .\"nome do algoritmo" o ultimo gera o arquivo execultavel tipo TXT para ser plotado, para plotar eu uso o terminal que ao gera o arquivo TXT eu uso no terminal o comando"Gnuplot"para abri lo após isso eu "plot "nome do arquivo.txt" w l" isso gera o Grafico e serve para todos os algoritmos, segue explicações espesificas de cada algoritmo.
+	OBS: tudo oque for digo dos algoritmos a seguir é oque acontece na minha maquina.
+Distribution: Ao ultiliza o gcc -c -Wall no distribution irá aparecer uma mensagem Warning porém pode deixá la de lado é apenas um aviso sobre o uso da memória, após isso os demais comando funcionam normalmente incluindo a plotagem.
+Insertion_a: O meu insertion sort para o caso médio funciona normalmente com todos os comando ditos acima sem nenhum problema.
+Insertion_w: O meu algortimo para o pior caso do Insertion também funciona normalmente sem erros ou mensagens de aviso.
+Merge: Esse também não ah erros na momento de sua execulção nem mensagens.
+Quick_a: Esse algoritmo para calcular o caso médio do quick também funciona sem erros de compilação.
+Quick_w:  Para o pior caso, aparecera varias mensagens de Warning falando sobre provaveis erros de alocação de dados para o arquivo txt. porém ele funciona normalmente ao execultar o resto dos comando, então pode deixar passar isso e ser a execulção.
+Selection: Ele execulta normalmente sem problema algum nem mensagens de Warning.
+
+No demais é isso.
